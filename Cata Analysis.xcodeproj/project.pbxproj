@@ -12,6 +12,7 @@
 		FA33F72F1FD446A20002FD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA33F72D1FD446A20002FD68 /* Main.storyboard */; };
 		FA33F7311FD446A20002FD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA33F7301FD446A20002FD68 /* Assets.xcassets */; };
 		FA33F7341FD446A20002FD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA33F7321FD446A20002FD68 /* LaunchScreen.storyboard */; };
+		FA33F73C1FD446C10002FD68 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33F73B1FD446C10002FD68 /* GetData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA33F7301FD446A20002FD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA33F7331FD446A20002FD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA33F7351FD446A20002FD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA33F73B1FD446C10002FD68 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FA33F7281FD446A20002FD68 /* Cata Analysis */ = {
 			isa = PBXGroup;
 			children = (
+				FA33F73B1FD446C10002FD68 /* GetData.swift */,
 				FA33F7291FD446A20002FD68 /* AppDelegate.swift */,
 				FA33F72B1FD446A20002FD68 /* ViewController.swift */,
 				FA33F72D1FD446A20002FD68 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				FA33F72C1FD446A20002FD68 /* ViewController.swift in Sources */,
 				FA33F72A1FD446A20002FD68 /* AppDelegate.swift in Sources */,
+				FA33F73C1FD446C10002FD68 /* GetData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5838NHR6G;
 				INFOPLIST_FILE = "Cata Analysis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rayx.Cata-Analysis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5838NHR6G;
 				INFOPLIST_FILE = "Cata Analysis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rayx.Cata-Analysis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
